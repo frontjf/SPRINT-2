@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="images/Imagenes/favicon-32x32.png"/>
     
     <link rel="stylesheet" href="style.css">
        
@@ -12,32 +13,32 @@
 <body>
 
     
-<header class="container">
+<header class="container pb-5">
       
-  <div class="row p-5">
+  <div class="row pt-3 pt-sm-5">
 
-        <div class="col-6 col-xs-12">
+    <div class="col-6">
           
           <nav class="navbar navbar-expand-lg">
             
-            <a class="navbar-brand" href="#"><img src="images/Imagenes/logo-bookmark.svg" alt="" srcset=""></a>
+            <a class="navbar-brand" href="#"><img src="images/Imagenes/logo-bookmark.svg" alt="" class="img-fluid"></a>
 
         </nav>
 
-        </div>
-        <div class="col-6 col-xs-12">
+    </div>  
+        <div class="col-4 col-sm-4">
 
           <nav class="navbar navbar-expand-sm">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
 
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon img-fluid"></span>
 
             </button>
 
-            <div class="collapse navbar-collapse" id="opciones">
+            <div class="collapse navbar-collapse justify-content-end" id="opciones">
 
-              <ul class="navbar-nav p-1">
+              <ul class="navbar-nav ">
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="#">FEARTURES</a>
                 </li>
@@ -55,7 +56,8 @@
             </div>
 
           </nav>
-
+    </div>    
+  </div>        
 
 </header>    
 
@@ -64,28 +66,28 @@
     
       <div class="row justify-content-center pt-3">
 
-        <div class="col-lg-5 pt-5">
+        <div class="col-12 col-sm-5 pt-sm-5">
 
-          <h3 class="">A Simple Bookmark Manager</h3>
-          <p>A clean and simple interface to organiza your favorite websites. Open a nwe browser tab and see your sites load instantly. Try it for free</p>
-          <a href=""><button type="button" class="btn btn-primary">Get it on Chrome</button></a>
+          <h3 class="pt-sm-5 p-1">A Simple Bookmark Manager</h3>
+          <p class="text-wrap p-sm-0 p-4 pt-sm-3">A clean and simple interface to organiza your favorite websites. Open a nwe browser tab and see your sites load instantly. Try it for free</p>
+          <a href=""><button type="button" class="btn btn-primary p-1 pt-sm-2">Get it on Chrome</button></a>
           <a href=""><button type="button" class="btn btn-light">Get it on Firefox</button></a>
 
         </div>
-        <div class="col-6">
-          <img class="img-fluid w-75 p-3" src="images/Imagenes/illustration-hero.svg">
+        <div class="col-12 col-sm-6 pt-5 ps-5 ps-sm-0 pt-sm-3">
+          <img class="img-fluid w-75 p-0 p-sm-3" src="images/Imagenes/illustration-hero.svg">
         </div>
 
       </div>
 </div>
 
       
-      <!-- ejercicio 2 -->
+<!-- ejercicio 2 -->
 
 <div class="container">
       <div class="row justify-content-center">
          
-         <div class="col col-lg-6 text-center">
+         <div class="col-12 col-sm-6 text-center">
 
           <h3 class="pt-2">Features</h3>
           <p class="pt-3">Our ain is to make it quick and easy for you to access your favorite websites.
@@ -98,7 +100,7 @@
       </div>
       <div class="row justify-content-center">
         
-        <div class="col col-8">
+        <div class="col-12 col-sm-8">
 
           <ul class="nav nav-tabs justify-content-around p-5">
             <li class="nav-item">
@@ -118,35 +120,35 @@
       </div>
 
       <div class="row pt-5">
-        <div class="col-6">
+        <div class="col-12 col-sm-6">
 
-          <img class="img-fluid w-75 p-3" src="images/Imagenes/illustration-hero.svg">
+          <img class="img-fluid w-75 p-0 p-sm-3" src="images/Imagenes/illustration-hero.svg">
 
         </div>
-        <div class="col-4 text-start align-items-center pt-5">
+        <div class="col-12 col-sm-4 pt-0">
 
-          <h3>Bookmark in one click</h3>
-          <p>Organize your bookmarks however you like. Our simple drag-and-drop
+          <h3 class="pb-3">Bookmark in one click</h3>
+          <p class="pb-3">Organize your bookmarks however you like. Our simple drag-and-drop
              interface gives yoo complete control over how you manage your favorites sites.</p>
-          <button class="btn btn-primary">More Info</button>
+             <a href="#" class=""><button class="btn btn-primary">More Info</button></a>
         </div>
       </div>
-</div>
+</div> 
 
 <!-- ejercicio 3 -->
 
 <div class="container">
 
-  <div class="row justify-content-center text-center">
-    <div class="col col-lg-6">
+  <div class="row justify-content-center text-center ">
+    <div class="col-12 col-sm-6">
     
-    <h3>Download the extension</h3>
+    <h3 class="pt-2">Download the extension</h3>
     <p class="pt-2">We,ve got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to proritzie.</p>
     
   </div>
   <div class="row justify-content-center p-5 position-relative">
 
-    <div class="col-3 position-relative">
+    <div class="col-12 col-sm-3 position-relative">
 
       <div class="card shadow mb-5 bg-body rounded" style="width: 11rem;">
         <img src="images/Imagenes/logo-chrome.svg" class="card-img-top p-5" alt="...">
@@ -159,7 +161,7 @@
       </div>
     </div>  
     
-    <div class="col-3 position-relative top-10">
+    <div class="col-12 col-sm-3 position-relative top-5">
       <div class="card shadow mb-5 bg-body rounded" style="width: 11rem;">
         <img src="images/Imagenes/logo-firefox.svg" class="card-img-top p-5" alt="...">
         <div class="card-body text-center">
@@ -171,7 +173,7 @@
       </div>
     </div>
         
-    <div class="col-3 position-relative top-20 pb-5">
+    <div class="col-12 col-sm-3 position-relative top-10 pb-5">
       <div class="card shadow mb-5 bg-body rounded" style="width: 11rem;">
         <img src="images/Imagenes/logo-opera.svg" class="card-img-top p-5" alt="...">
         <div class="card-body text-center">
@@ -190,10 +192,12 @@
 
 <!-- ejercicio 4 -->
 
-<div class="container pt-5">
+<div class="container">
 
-  <div class="row justify-content-center text-center">
-    <div class="col-6">
+
+
+  <div class="row justify-content-center text-center position-relative top-100 pt-5">
+    <div class="col-12 col-sm-6 pt-5">
 
       <h3>Frequently Asked Questions</h3>
       <p class="pt-3">Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
@@ -254,6 +258,8 @@
 
 
 
+
+
     
    
    
@@ -261,7 +267,7 @@
 
 
    
-<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="/NIVEL 1/node_modules/bootstrap/dist/js/bootstrap.js"></script>  
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>  
 </body>
 </html>
