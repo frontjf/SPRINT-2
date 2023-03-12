@@ -1,4 +1,29 @@
 @charset "UTF-8";
+.areaBlueRight {
+  background-color: #0928f1;
+  width: 35%;
+  top: 45%;
+  height: 28%;
+  left: 65%;
+  border-radius: 200px 0 0 200px;
+  position: absolute;
+  z-index: -1;
+  padding-bottom: 35px;
+}
+
+.areaBlueLeft {
+  background-color: #0928f1;
+  width: 35%;
+  top: 130%;
+  height: 28%;
+  right: 65%;
+  z-index: -1;
+  padding-bottom: 25px;
+  border-radius: 0 200px 200px 0;
+  position: absolute;
+  padding-bottom: 35px;
+}
+
 /*!
  * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -7309,6 +7334,10 @@ textarea.form-control-lg {
   top: 10% !important;
 }
 
+.top-15 {
+  top: 15% !important;
+}
+
 .top-20 {
   top: 20% !important;
 }
@@ -7325,8 +7354,44 @@ textarea.form-control-lg {
   top: 40% !important;
 }
 
+.top-45 {
+  top: 45% !important;
+}
+
 .top-50 {
   top: 50% !important;
+}
+
+.top-55 {
+  top: 55% !important;
+}
+
+.top-60 {
+  top: 60% !important;
+}
+
+.top-65 {
+  top: 65% !important;
+}
+
+.top-70 {
+  top: 70% !important;
+}
+
+.top-75 {
+  top: 75% !important;
+}
+
+.top-80 {
+  top: 85% !important;
+}
+
+.top-90 {
+  top: 90% !important;
+}
+
+.top-95 {
+  top: 95% !important;
 }
 
 .top-100 {
@@ -7345,6 +7410,10 @@ textarea.form-control-lg {
   bottom: 10% !important;
 }
 
+.bottom-15 {
+  bottom: 15% !important;
+}
+
 .bottom-20 {
   bottom: 20% !important;
 }
@@ -7361,8 +7430,44 @@ textarea.form-control-lg {
   bottom: 40% !important;
 }
 
+.bottom-45 {
+  bottom: 45% !important;
+}
+
 .bottom-50 {
   bottom: 50% !important;
+}
+
+.bottom-55 {
+  bottom: 55% !important;
+}
+
+.bottom-60 {
+  bottom: 60% !important;
+}
+
+.bottom-65 {
+  bottom: 65% !important;
+}
+
+.bottom-70 {
+  bottom: 70% !important;
+}
+
+.bottom-75 {
+  bottom: 75% !important;
+}
+
+.bottom-80 {
+  bottom: 85% !important;
+}
+
+.bottom-90 {
+  bottom: 90% !important;
+}
+
+.bottom-95 {
+  bottom: 95% !important;
 }
 
 .bottom-100 {
@@ -7381,6 +7486,10 @@ textarea.form-control-lg {
   left: 10% !important;
 }
 
+.start-15 {
+  left: 15% !important;
+}
+
 .start-20 {
   left: 20% !important;
 }
@@ -7397,8 +7506,44 @@ textarea.form-control-lg {
   left: 40% !important;
 }
 
+.start-45 {
+  left: 45% !important;
+}
+
 .start-50 {
   left: 50% !important;
+}
+
+.start-55 {
+  left: 55% !important;
+}
+
+.start-60 {
+  left: 60% !important;
+}
+
+.start-65 {
+  left: 65% !important;
+}
+
+.start-70 {
+  left: 70% !important;
+}
+
+.start-75 {
+  left: 75% !important;
+}
+
+.start-80 {
+  left: 85% !important;
+}
+
+.start-90 {
+  left: 90% !important;
+}
+
+.start-95 {
+  left: 95% !important;
 }
 
 .start-100 {
@@ -7417,6 +7562,10 @@ textarea.form-control-lg {
   right: 10% !important;
 }
 
+.end-15 {
+  right: 15% !important;
+}
+
 .end-20 {
   right: 20% !important;
 }
@@ -7433,8 +7582,44 @@ textarea.form-control-lg {
   right: 40% !important;
 }
 
+.end-45 {
+  right: 45% !important;
+}
+
 .end-50 {
   right: 50% !important;
+}
+
+.end-55 {
+  right: 55% !important;
+}
+
+.end-60 {
+  right: 60% !important;
+}
+
+.end-65 {
+  right: 65% !important;
+}
+
+.end-70 {
+  right: 70% !important;
+}
+
+.end-75 {
+  right: 75% !important;
+}
+
+.end-80 {
+  right: 85% !important;
+}
+
+.end-90 {
+  right: 90% !important;
+}
+
+.end-95 {
+  right: 95% !important;
 }
 
 .end-100 {

@@ -10,13 +10,51 @@ $position-values: (
   0: 0,
   5:5%,
   10:10%,
+  15:15%,
   20:20%,
   25:25%,
   35:35%,
   40:40%,
+  45:45%,
   50: 50%,
+  55:55%,
+  60:60%,
+  65:65%,
+  70:70%,
+  75:75%,
+  80:85%,
+  90:90%,
+  95:95%,
   100: 100%
 );
+
+.areaBlueRight{
+
+  background-color: #0928f1;
+	width: 35%;
+	top: 45%;
+	height: 28%;
+	left: 65%;
+	border-radius: 200px 0 0 200px;
+	position: absolute;
+	z-index: -1;
+  padding-bottom: 35px;
+}
+
+.areaBlueLeft{
+
+  background-color: #0928f1;
+	width: 35%;
+	top: 130%;
+	height: 28%;
+  right: 65%;
+  z-index: -1;
+  padding-bottom: 25px;
+  border-radius: 0 200px 200px 0;
+	position: absolute;
+  padding-bottom: 35px;
+
+}
 
 
 
