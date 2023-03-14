@@ -1,50 +1,25 @@
 @charset "UTF-8";
 .areaBlueRight {
-  background-color: #5265E1;
-  width: 90%;
-  top: 35%;
-  height: 69%;
-  left: 40%;
+  background-color: #0928f1;
+  width: 50%;
+  top: 50%;
+  height: 30%;
+  left: 65%;
   border-radius: 200px 0 0 200px;
   z-index: -1;
-  position: absolute;
 }
 
 .areaBlueLeft {
-  background-color: #5265E1;
-  width: 90%;
-  top: 35%;
-  height: 69%;
-  right: 35%;
+  background-color: #0928f1;
+  width: 70%;
+  top: 90%;
+  height: 28%;
+  right: 65%;
   z-index: -1;
   padding-bottom: 25px;
   border-radius: 0 200px 200px 0;
-  position: absolute;
 }
 
-@media (max-width: 575.98px) {
-  .areaBlueRight {
-    background-color: #5265E1;
-    width: 75%;
-    top: 40%;
-    height: 60%;
-    left: 25%;
-    border-radius: 200px 0 0 200px;
-    z-index: -1;
-    position: absolute;
-  }
-  .areaBlueLeft {
-    background-color: #5265E1;
-    width: 75%;
-    top: 40%;
-    height: 60%;
-    right: 25%;
-    z-index: -1;
-    padding-bottom: 25px;
-    border-radius: 0 200px 200px 0;
-    position: absolute;
-  }
-}
 /*!
  * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
